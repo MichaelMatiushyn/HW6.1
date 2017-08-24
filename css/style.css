@@ -1,0 +1,99 @@
+body {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:0;
+}
+
+h1 {
+	display:block;
+	text-align: center;
+	text-decoration: underline;
+	font: 25px Tahoma sans-serif;
+}
+
+.wrapper a {
+	display: block;
+	width:400px;
+	margin: 40px auto;
+	text-decoration: none;
+	color:black;
+}
+
+.wrapper a:first-child {
+	background-color: green;
+}
+
+.wrapper a:nth-child(2) {
+	background-color: purple;
+}
+
+a:hover:first-child {
+	background-color: yellow;
+}
+
+a:hover:nth-child(2) {
+	background-color: brown;
+}
+
+a:active:first-child {
+	background-color: red;
+}
+
+a:active:nth-child(2) {
+	background-color: gold;
+}
+
+.question {
+	width: 400px;
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin:0 auto;
+	background-color: white;
+}
+
+input:active {
+	border: 2px solid green;
+}
+
+input:focus {
+	border: 2px solid green;
+}
+
+.children, .children2, .fig {
+	width: 80%;
+	background-color: white;
+	margin: 10px auto;
+}
+
+.children p:nth-child(even) {
+	background-color: grey;
+}
+
+.children p:first-letter {
+	font: 2em Georgia;
+	color: red;
+}
+
+.children p:after {
+	content: '*';
+}
+
+.children2 p:before {
+	content: '\2602';
+}
+
+.fig {
+	margin-left: 400px;
+	width: 50px;
+	height: 25px;
+	background-color: black;
+	display: inline-block;
+}
+
+.fig:before {
+	content: '\23F4';
+	margin-left: -10px;
+	font-size: 18px;
+}
