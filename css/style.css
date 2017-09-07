@@ -87,14 +87,14 @@ input:focus {
 .fig {
 	margin-left: 400px;
 	margin-bottom: 50px;
-	width: 50px;
-	height: 25px;
+	width: 77px;
+	height: 52px;
 	background-color: black;
 	display: inline-block;
 }
 
 .fig:before {
 	content: '\23F4';
-	margin-left: -10px;
-	font-size: 18px;
+	margin-left: -20px;
+	font-size: 36px;
 }
