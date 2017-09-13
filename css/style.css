@@ -84,6 +84,10 @@ input:focus {
 	content: '\2602';
 }
 
+.task {
+	position: relative;
+}
+
 .fig {
 	margin-left: 400px;
 	margin-bottom: 50px;
@@ -93,8 +97,12 @@ input:focus {
 	display: inline-block;
 }
 
-.fig:before {
-	content: '\23F4';
-	margin-left: -20px;
-	font-size: 36px;
+.sign {
+	border: 15px solid transparent;	
+	border-right: 15px solid black;
+	position: absolute;
+	left: 370px;
+	top: 21px;
 }
+
+
